@@ -51,7 +51,7 @@ This project is part of a coding assignment and demonstrates backend development
     ```
 
 4. **Activate the virtual environment:**
-On initial container startup, the following actions are executed automatically via
+
     ```sh
     source .venv/bin/activate
     ```
@@ -125,7 +125,6 @@ On initial container startup, the following actions are executed automatically v
 
     Start the container using the `.env` file and expose port 8025:  
     
-
     ```sh
     docker run -d --env-file .env -p 8025:8025 --restart unless-stopped <your_container_name_here>
     ```
