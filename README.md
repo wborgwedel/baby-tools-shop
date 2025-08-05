@@ -114,7 +114,7 @@ This project is part of a coding assignment and demonstrates backend development
 
 2. **Build the Docker image**
 
-    In the root of the project (@ the location of manage.py), build the Docker image:  
+    In the root of the project (@ the location of `Dockerfile`), build the Docker image:  
 
     ```sh
     docker build -t <your_image_name_here> .
