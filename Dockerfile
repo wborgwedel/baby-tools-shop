@@ -9,8 +9,6 @@ WORKDIR /app
 RUN apk add --no-cache --virtual .build-deps \
     gcc musl-dev libffi-dev
 
-RUN apk add --no-cache linux-headers postgresql-dev
-
 # install dependencies
 COPY requirements.txt .
 RUN pip install --trusted-host pypi.python.org --no-cache-dir -r requirements.txt
