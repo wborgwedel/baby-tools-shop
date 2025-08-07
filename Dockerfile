@@ -24,5 +24,4 @@ RUN chmod +x /app/entrypoint.sh
 EXPOSE 8025
 
 # startcommand
-ENTRYPOINT ["/app/entrypoint.sh"]
-CMD ["python", "babyshop_app/manage.py", "runserver", "0.0.0.0:8025"]
+ENTRYPOINT ["/app/entrypoint.sh", "python", "babyshop_app/manage.py", "runserver", "0.0.0.0:8025"]
