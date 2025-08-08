@@ -3,7 +3,7 @@
 ## Table of Contents
 
 1. [Description](#description)
-2. [Technologies](#technologies)
+2. [Prerequisites](#Prerequisites)
 3. [Quickstart](#quickstart)
 4. [Usage](#Usage)
 
@@ -22,7 +22,7 @@ The goal of this project is to provide a platform where users can:
 This project is part of a coding assignment and demonstrates backend development, user authentication, templating, and containerization with Docker.
 
 
-## Technologies
+## Prerequisites
 
 - pyenv
 - Python 3.9
