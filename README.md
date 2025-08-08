@@ -26,7 +26,6 @@ This project is part of a coding assignment and demonstrates backend development
 
 - pyenv
 - Python 3.9
-- Django 4.0.2
 - Virtualenv
 - Docker
 
