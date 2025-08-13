@@ -101,8 +101,8 @@ This project is part of a coding assignment and demonstrates backend development
 1. **Create `.env` file with environment variables**
 
 > [!IMPORTANT]
-> There is an `.env.example` file in the project root directory.
-> This file is used to define environment variables required for superuser creation and Django settings.
+> There is an `.env.example` file in the project root directory.  
+> This file is used to define environment variables required for superuser creation and Django settings.  
 > You can use it as a template for your own `.env` file.  
 > Make sure to remove the `.example` extension from the file name and replace the placeholder values with your own.
 
