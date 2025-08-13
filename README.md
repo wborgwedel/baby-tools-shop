@@ -127,8 +127,8 @@ This project is part of a coding assignment and demonstrates backend development
     ```sh
     docker build -t <your_image_name_here> .
     ```
-    > [!NOTE]
-    > Remember the dot at the end.
+> [!NOTE]
+> Remember the dot at the end.
 
 3. **Run the container**
 
