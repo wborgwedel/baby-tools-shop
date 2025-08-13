@@ -100,7 +100,12 @@ This project is part of a coding assignment and demonstrates backend development
 
 1. **Create `.env` file with environment variables**
 
-    Before running the container, create a `.env` file in the project root directory.  
+    > [!IMPORTANT]
+    > There is an `.env.example` file in the project root directory.
+    > This file is used to define environment variables required for superuser creation and Django settings.
+    > You can use it as a template for your own `.env` file.  
+    > Make sure to remove the `.example` extension from the file name and replace the placeholder values with your own.
+
     This file is used to define environment variables required for superuser creation.
 
     Example `.env` file:
@@ -109,6 +114,12 @@ This project is part of a coding assignment and demonstrates backend development
     DJANGO_SUPERUSER_USERNAME=admin
     DJANGO_SUPERUSER_EMAIL=admin@example.com
     DJANGO_SUPERUSER_PASSWORD=adminpass123
+   
+    DEBUG=True
+
+    ALLOWED_HOSTS=<your.ip.is.here>,localhost,127.0.0.1
+
+    SECRET_KEY=your_super_secret_django_key
     ```
 
 2. **Build the Docker image**
